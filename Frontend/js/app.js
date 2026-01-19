@@ -1,6 +1,6 @@
 let cart = [];
 
-fetch("http://localhost:5000/api/products")
+fetch("https://marketplace-xbcg.onrender.com")
   .then(res => res.json())
   .then(data => {
     const container = document.getElementById("products");
